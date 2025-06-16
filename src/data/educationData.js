@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Ramjas College, Delhi University',
-        course: 'B.A. Honours History',
-        startYear: '2015',
-        endYear: '2018'
+        institution: 'ESIEE - Paris, Noisy-le-Grand',
+        course: 'Cycle Ingénieur filière Informatique et Applications',
+        startYear: '2024',
+        endYear: '2027'
     },
     {
         id: 2,
-        institution: 'Delhi University',
-        course: 'M.A. History',
-        startYear: '2019',
-        endYear: '2021'
+        institution: 'IUT de Paris - Rives de Seine',
+        course: 'BUT Informatique',
+        startYear: '2022',
+        endYear: '2024'
     },
     {
         id: 3,
-        institution: 'Masai School of Coding',
-        course: 'Fullstack Web-Development',
-        startYear: '2021',
-        endYear: 'Present'
+        institution: 'Lycée Paul Éluard',
+        course: 'Baccalauréat',
+        startYear: '2019',
+        endYear: '2021'
     },
 ]

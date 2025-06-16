@@ -1,9 +1,10 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/Issa Mahamat.pdf'
+import imagePro from '../assets/png/image pro.jpeg'
 
 export const headerData = {
-    name: 'Sreerag Rajan',
-    title: "Web Developer",
-    desciption:"Life may be a meandering path but don't worry about it, rather enjoy it. It is about the journey, not the destination so explore all that comes your way, learn and grow from it, for this journey only happens once.",
-    image: 'https://avatars.githubusercontent.com/u/85482640?v=4',
+    name: 'Issa Mahamat',
+    title: "Developpeur Logiciel / Mobile",
+    desciption:"Actuellement étudiant en 1ère année du cycle d'ingénieur au sein de l'ESIEE-Paris, filière Informatique et Applications et Technologies de la 3D.",
+    image: imagePro,
     resumePdf: resume
 }
