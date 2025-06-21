@@ -1,59 +1,53 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
-import fond from '../assets/png/fondSpaceInvaders.jpg'
+
+import space from '../assets/png/space.png'
+import graphe from '../assets/png/Graphe.jpg'
+import interpreteur from '../assets/png/screen_un.png'
+import qds from '../assets/png/trace_quatre.png'
+import medApp from '../assets/png/medapp.jpg'
+import medicine from '../assets/png/medicine.jpg'
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Space Invaders',
+        projectName: 'Jeu - Space Invaders',
         projectDesc: `Développement complet du jeu Space Invaders en .NET (C#), intégrant l’ensemble des mécaniques de gameplay : déplacement du joueur, génération des ennemis, tirs, collisions, et progression de la difficulté.
         Projet axé sur la maîtrise de la programmation orientée objet, la gestion des événements, et l’optimisation de la logique de jeu.`,
         tags: ['C#'],
         code: 'https://github.com/ideuxs/Space-Invaders',
-        demo: 'https://historythroughmovies.pythonanywhere.com/',
-        image: fond
+        image: space
     },
     {
         id: 2,
-        projectName: 'Sportsjam.in Clone',
-        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
-        tags: ['HTML', 'CSS','Javascript'],
-        code: 'https://github.com/sreerag-rajan/sportsjam-clone',
-        demo: 'https://practical-meninsky-36f305.netlify.app/',
-        image: "https://camo.githubusercontent.com/f9fbe30b577cff2fbf09af53fb3c1f12fcc10a771bf9459ed5af10bffab9e38b/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3837352f312a525f5f63646e384c316759474b3154647171797562672e706e67"
+        projectName: 'Organix',
+        projectDesc: `Projet de développement d’une application mobile permettant de signaler la pénurie de médicaments dans une ville. L’utilisateur peut scanner le QR code du médicament ou saisir son code CIP (identifiant officiel attribué lors de sa mise sur le marché) afin de transmettre l’alerte.`,
+        tags: ['React Native', 'Javascript'],
+        code: 'https://github.com/ideuxs/Organix',
+        image: medicine
     },
     {
         id: 3,
-        projectName: 'Educative Clone',
-        projectDesc: 'This project is the clone of Educative.io. Built as part of Project week, my contributions include the home page(both with user and without user), course information page and checkout page. The rest of the pages and features were built by other members of my team',
-        tags: ['React', 'Material UI', 'Express', "MongoDB","NodeJS"],
-        code: 'https://github.com/sreerag-rajan/educative-clone',
-        demo: 'https://educative-clone.vercel.app/',
-        image: "https://user-images.githubusercontent.com/85482640/161571651-35ab8e4e-dc57-4834-bafc-9485766f5b8a.png"
+        projectName: `Gestion d'information`,
+        projectDesc: `Interpréteur de commandes développé en langage C permettant la gestion d’étudiants au sein d’une formation. Possibilité d’ajouter ou de retirer des étudiants, d’associer des matières avec les notes correspondantes, et de générer un relevé incluant la moyenne de chaque étudiant ainsi que la décision finale concernant leur passage ou non à l’année suivante.`,
+        tags: ['C'],
+        code: 'https://github.com/ideuxs/gestion-information',
+        image: interpreteur
     },
     {
         id: 4,
-        projectName: 'Reliance Digital Clone - Backend Integration',
-        projectDesc: 'This is the clone of reliancedigital.in. Features I worked on the Product Catalogue pages and also on some minor parts on other pages as well',
-        tags: ['EJS', 'Express', 'MongoDB', 'Node.js'],
-        code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        projectName: 'Algorithme Dijkstra',
+        projectDesc: `Algorithme de Dijkstra en Java pour calculer le chemin le plus court dans un graphe pondéré. Utilisation d'une file de priorité pour optimiser les performances et une structure de données adaptée aux graphes orientés. Tests unitaires complets réalisés avec JUnit.`,
+        tags: ['Java'],
+        code: 'https://github.com/ideuxs/Graphe-Dijkstra',
+        image: graphe
     },
+   
     {
-        id: 5,
-        projectName: 'Reliance Digital Clone - Frontend',
-        projectDesc: 'This project is the clone of Reliance Digital built as a part of a project week. It simulates the functionality of an e-commerce website from landing page to checkout. My contribution was the product catalog page arriving from the navbar, as well as leading the team.',
-        tags: ['HTML', 'CSS', 'Javascript'],
-        code: 'https://github.com/iamrituyadav/Reliance_digital',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        id: 2,
+        projectName: 'Jeu - Quart de singe',
+        projectDesc: 'Jeu interactif en langage C / C++ du « quart de singe », où plusieurs joueurs construisent un mot lettre par lettre. Mise en œuvre des concepts fondamentaux comme les pointeurs, la gestion dynamique de la mémoire et le contrôle de flux en C. Insertion des paramètres en ligne de commande pour initialiser les joueurs et un fichier dictionnaire pour valider les mots proposés',
+        tags: ['C', 'C++'],
+        code: 'https://github.com/ideuxs/Quart-de-Singe',
+        image: qds
     },
     
 ]
